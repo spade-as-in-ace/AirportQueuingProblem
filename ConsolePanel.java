@@ -48,10 +48,10 @@ class ConsolePanel implements Runnable {
 		if (columnLabels.length >= numPanels) {
 			this.columnLabels = columnLabels;
 		}
-		init();
+		initialize();
 	}
 
-	public void init() {
+	private void initialize() {
 		frame.setLocation(0, 0);
 		frame.setSize(10, 10);
 		frame.setResizable(true);
