@@ -131,9 +131,6 @@ class ConsolePanel implements Runnable {
 				textAreas[i].append(String.valueOf((char) b));
 			}
 		}));
-//		for (JTextArea text : textAreas) {
-//			panel.add(text);
-//		}
 	}
 
 	public int countMatches(String s, char c) {
