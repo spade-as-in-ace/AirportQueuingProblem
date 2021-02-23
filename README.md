@@ -10,7 +10,7 @@ The Aircraft class is representative of each aircraft at the airport and the dat
 the Airport class is representative of a simple airport.\
 The FlightScheduler class is responsible for generating Aircraft and flights with randomized data. This might be equivilant to a Ramp controller (in the U.S. where Ground/Ramp are seperate entities).\
 The TakeoffScheduler class is responsible for letting aircraft pushback from the gate and join the queue for takeoff. This may be thought of as the Ground controller.\
-The TakeoffController class is responsible for actually getting aircraft off the ground. This is may be thought of as the Tower.\
+The TakeoffController class is responsible for actually getting aircraft off the ground. This is may be thought of as the Tower.
 
 Shortcomings of this demonstration:
 - it does not take into account aircraft classifications (super, heavy, etc)
